@@ -2,6 +2,9 @@
 // 09/10-02-2022
 // Roger Pibernat basado en código de SHELLY KNOTTS
 
+// LIVE CODING ------------------------------------------------------//
+// https://toplap.org/wiki/ManifestoDraft
+
 // HOLA ------------------------------------------------------//
 // para evaluar una línea de código, pon el cursor en
 // la línea y presiona SHIFT+RETURN simultáneamente
@@ -293,3 +296,16 @@ Pdef(\pattern_3,
 Pdef(\pattern_3).play(t).quant_(1);
 
 Pdef.removeAll
+
+// Y AHORA QUÉ? ------------------------------------------------------//
+// ejemplos: /usr/share/SuperCollider/examples/
+(Platform.systemAppSupportDir ++ "/examples").postln
+
+// tutoriales (eli fieldsteel en youtube): https://www.youtube.com/playlist?list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC
+// comunidad: https://scsynth.org/
+// patches (synthdefs): https://sccode.org/
+// mis patches (experimentales y quizás poco fiables): https://github.com/loopier/synthdefs
+
+// sobre livecoding (toplap): https://toplap.org/wiki/Main_Page
+// comunidad livecoding: https://forum.toplap.org/
+// más allá  de SuperCollider: https://github.com/toplap/awesome-livecoding
